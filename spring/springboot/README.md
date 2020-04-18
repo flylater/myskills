@@ -4,3 +4,5 @@
 
 3、 [使用maven创建springboot工程helloworld](使用maven创建springboot工程helloworld.md)  
 
+4、 [将springboot应用打包成可执行的jar包](将springboot应用打包成可执行的jar包.md)  
+

@@ -48,7 +48,7 @@
            return "Hello World!";
        }
    }
-   ```  
+   ```
 
    效果如下：  
 
@@ -68,7 +68,7 @@
            return "Hello World!";
        }
    }
-   ```  
+   ```
 
    解释下@Controller与@RestController的区别：  
 
@@ -89,7 +89,9 @@
            SpringApplication.run(HelloWorldMainApplication.class, args);
        }
    }
-   ```  
+   ```
+
+   注解解析：@SpringBootApplication的作用开启自动配置，将标注的类所在包及下面所有的子包的所有组件都扫描到Spring容器。
 
    项目结构图目前如下：  
 
@@ -110,4 +112,3 @@
       ![idea创建maven工程helloworld7](images/idea创建maven工程helloworld7.jpg)  
 
 
-   
