@@ -1,6 +1,8 @@
 # Spring boot打成可执行jar包  
 
-1. 在pom.xml中加入以下内容  
+> 本文介绍通过spring-boot-maven-plugin插件将Spring Boot应用打包成可执行jar包，点击查看本文[源码](https://github.com/flylater/springboot/tree/master/springbootmavenhelloworld)  
+
+1. 在pom.xml中加入以下内容 
 
    ```xml
    <!-- 打包插件，可以将应用打包成一个可执行的jar包，打包时会把依赖包也打进来 -->

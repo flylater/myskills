@@ -1,6 +1,6 @@
 # 使用Maven创建Spring Boot工程  
 
-> 本文通过Maven来创建Spring boot工程，主要目的是介绍Spring Boot工程创建时的一些细节  
+> 本文通过Maven来创建Spring boot工程，主要目的是介绍Spring Boot工程创建时的一些细节，点击查看本文[源码](https://github.com/flylater/springboot/tree/master/springbootmavenhelloworld)  
 
 ## 创建一个Maven工程  
 
