@@ -6,3 +6,5 @@
 
 4、 [将springboot应用打包成可执行的jar包](将springboot应用打包成可执行的jar包.md)  
 
+5、 [使用Spring Initializr快速创建springboot工程](使用Spring Initializr快速创建springboot工程.md)  
+
