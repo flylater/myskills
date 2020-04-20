@@ -52,7 +52,7 @@ K: [V1,V2]
 
 ## YAML文件的值注入  
 
-可以使用@ConfigurationProperties将配置文件中的每一个属性的值，映射到组件当中。必须是容器中的组件(类上需要加上@Component等证明是容器组件的注解)，才能使用容器提供的@ConfigurationProperties功能  
+可以使用@ConfigurationProperties将配置文件中的每一个属性的值，映射到组件当中。必须是容器中的组件(类上需要加上@Component等证明是容器组件的注解)，才能使用容器提供的@ConfigurationProperties功能。@ConfigurationProperties默认从全局配置文件中取值。  
 
 * 需要加入的依赖  
 
