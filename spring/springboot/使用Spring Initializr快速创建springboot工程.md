@@ -6,6 +6,8 @@
 
    ![使用SpringInitializr创建springboot工程01](images/使用SpringInitializr创建springboot工程01.jpg)  
 
+   > 有时使用Spring Initializr快速创建Spring Boot工程时，显示连接https://start.spring.io失败，这时可以替换成阿里云的，选中Custom，然后输入https://start.aliyun.com，然后点击Next 
+
 2. 输入Group和Artifact，其余选项保持默认，点击Next  
 
    ![使用SpringInitializr创建springboot工程02](images/使用SpringInitializr创建springboot工程02.jpg)  
