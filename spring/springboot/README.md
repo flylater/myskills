@@ -14,3 +14,5 @@
 
 8、 [Thymeleaf与webjars相结合](Thymeleaf与webjars相结合.md)  
 
+9、 [国际化](国际化.md)  
+
