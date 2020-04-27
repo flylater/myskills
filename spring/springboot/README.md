@@ -10,3 +10,7 @@
 
 6、 [Spring Boot中使用thymeleaf](SpringBoot中使用thymeleaf.md)  
 
+7、 [SpringMVC的定制](SpringMVC的定制.md)  
+
+8、 [Thymeleaf与webjars相结合](Thymeleaf与webjars相结合.md)  
+
