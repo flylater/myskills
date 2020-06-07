@@ -174,3 +174,31 @@ public class Person {
 
 
 
+## 通过profile配置多环境  
+
+YAML通过`---`来分割配置文件的内容，可通过profiles指定激活哪一部分内容  
+
+``` yaml
+spring:
+  profiles:
+    active: prod
+
+---
+server:
+  port: 8082
+spring:
+  profiles: dev
+
+---
+server:
+  port: 8083
+spring:
+  profiles: prod
+```
+
+如上面的YAML文件，指定prod部分的配置为激活配置，当Spring Boot启动时，端口号为8083
+
+
+
+
+
