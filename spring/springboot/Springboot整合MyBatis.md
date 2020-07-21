@@ -57,3 +57,27 @@ CREATE TABLE `department` (
 ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 ```
 
+执行完建表语句之后，数据库表应该如下：
+
+employee表
+
+| id   | lastName | email | gender | d_id |
+| ---- | -------- | ----- | ------ | ---- |
+|      |          |       |        |      |
+
+department表
+
+| id   | departmentName |
+| ---- | -------------- |
+|      |                |
+
+
+
+## 注解形式使用MyBatis 
+
+
+
+## XML形式使用MyBatis  
+
+
+
