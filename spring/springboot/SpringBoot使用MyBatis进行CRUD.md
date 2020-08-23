@@ -361,3 +361,46 @@ public interface EmployeeMapper {
 
 ![](images/springboot使用mybatis进行crud013.png)  
 
+
+
+## 使用分页插件PageHelper  
+
+在pom.xml中加入PageHelper的依赖  
+
+```xml
+<dependency>
+    <groupId>com.github.pagehelper</groupId>
+    <artifactId>pagehelper</artifactId>
+    <version>5.2.0</version>
+</dependency>
+```
+
+在Mybatis的全局配置文件mybatis-config.xml里开启分页插件  
+
+```xml
+<plugins>
+    <plugin interceptor="com.github.pagehelper.PageInterceptor"></plugin>
+</plugins>
+```
+
+
+
+## 编写前端页面  
+
+### 引入thymeleaf  
+
+在pom.xml中加入thymeleaf的依赖  
+
+```xml
+<dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-thymeleaf</artifactId>
+</dependency>
+```
+
+在resources/templates下创建list.html  
+
+```html
+
+```
+
