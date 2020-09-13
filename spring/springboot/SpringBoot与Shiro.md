@@ -29,3 +29,44 @@ Shiro的细分功能：
 * Run As：允许一个用户假装为另一个用户（如果他们允许）的身份进行访问。
 * Remember Me：记住我，登录后，下次再来的话不用登录了。
 
+
+
+## Shiro认证思路分析  
+
+1. 获取当前的Subject。调用SecurityUtils.getSubject()
+2. 测试当前的用户是否已经被认证。即是否已经登录。调用Subject的isAuthenticated()
+3. 若没有认证，则把用户名和密码封装为UsernamePasswordToken对象
+   1. 创建一个表单页面
+   2. 把请求提交给SpringMVC的Handler
+   3. 获取用户名和密码
+4. 执行登录：调用Subject的login(AuthenticationToken)方法
+5. 自定义Realm的方法，从数据库中获取对应的记录，返回给Shiro
+   1. 需要继承org.apache.shiro.realm.AuthenticatingRealm类
+   2. 实现doGetAuthenticationInfo(AuthenticationToken)方法
+6. 由Shiro完成密码对比
+
+
+
+## SpringBoot中引入Shiro  
+
+### 加入Shiro的依赖  
+
+在pom.xml加入Shiro的依赖  
+
+``` yaml
+<!--引入Shiro-->
+<dependency>
+    <groupId>org.apache.shiro</groupId>
+    <artifactId>shiro-spring</artifactId>
+    <version>1.5.3</version>
+</dependency>
+```
+
+
+
+### 编写登录页面  
+
+
+
+### 实现认证Realm  
+
